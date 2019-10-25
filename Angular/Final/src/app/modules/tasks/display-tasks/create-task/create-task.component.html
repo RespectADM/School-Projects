@@ -1,0 +1,25 @@
+<form (ngSubmit)="onSubmit()">
+  <div>
+    <label for="id">Id = Number of tasks - 1 </label>
+    <input type="number" placeholder="Id" name="id" required [(ngModel)]="model.id">
+  </div>
+  <div>
+      <label for="name">Name: </label>
+      <input type="text" placeholder="Task Name" name="name" required [(ngModel)]="model.name">
+  </div>
+  <div>
+      <label for="time">Est. Completion Time: </label>
+      <input type="text" placeholder="time" name="time" required [(ngModel)]="model.time">
+  </div>
+  <div>
+      <label for="items">Items Needed: </label>
+      <input type="text" placeholder="Items" name="items" required [(ngModel)]="model.items">
+  </div>
+  <div>
+      <label for="description">Description: </label>
+      <textarea type="text" placeholder="description" name="description" required [(ngModel)]="model.description"></textarea>
+  </div>
+  <div>
+      <button type="submit">Submit</button>
+  </div>
+</form>
