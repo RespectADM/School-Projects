@@ -1,0 +1,30 @@
+#header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #header img {
+    max-width: 300px;
+    border: 1px solid black;
+    box-shadow: 2px 5px 2px rgb(166, 166, 166);
+  }
+
+  .city {
+      background-color: rgb(50, 74, 153);
+      padding: 4px;
+      border-style: double;
+      border-color: white;
+      margin-right: 5em;
+      margin-left: 5em;
+    }
+
+    .tagline {
+        font-size: 30px;
+        color: whitesmoke;
+        font-style: italic;
+    }
+
+    .aboutMe {
+        padding-left: 5em;
+        padding-right: 5em;
+    }

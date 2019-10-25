@@ -1,0 +1,17 @@
+form input {
+    outline-width: 0;
+    border-style: none;
+}
+
+form textarea {
+    outline-width: 0;
+    border-style: none;
+}
+
+form div {
+    margin-bottom: 5px;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills {
+    border-style: double;
+    border-width: 2px;
+    border-color: white;
+    background-color: rgb(50, 74, 153);
+    margin-left: 250px;
+    margin-right: 250px;
+    color: whitesmoke;
+}
+
+app-skills{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
