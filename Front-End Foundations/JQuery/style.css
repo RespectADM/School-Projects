@@ -1,0 +1,37 @@
+
+body {
+    font-family: "impact";
+    background-color: bisque;
+    
+}
+
+.input{
+    color: red;
+}
+
+.JavaScript {
+    color: blueviolet;
+}
+
+.C {
+    color: blue;
+}
+
+.Java {
+    color: green;
+}
+
+.Ruby {
+    color:yellow;
+}
+
+.Python {
+    color: red;
+}
+
+p {
+    border-style: double;
+    border-color: darkslategrey;
+    border-width: 5px;
+    background-color: aliceblue
+}

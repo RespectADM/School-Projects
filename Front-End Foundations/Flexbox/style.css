@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    color: white;
+    background-color: rgb(98, 98, 180);
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.header-container {
+    color: black;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons,
+.subscribe {
+    align-self: flex-end;
+    margin-bottom: 20px
+}
+
+.afc {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nfc {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.baseball {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    border: 1px solid white;
+    background-color: lightblue;
+    height: 200px;
+    flex: 1;
+}
+
+.footer-three {
+    flex: 1;
+}

@@ -1,0 +1,16 @@
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: "fantasy";
+}
+
+.navBar {
+    background-color: rgb(228, 200, 148);
+}
+.form-group {
+    width: 350px;
+    border-style: outset;
+    border-width: 3px;
+    border-color: rgb(53, 93, 117);
+    margin-top: 25px;
+    margin-left: 25px;
+}

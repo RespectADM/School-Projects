@@ -1,0 +1,75 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: lightskyblue;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+.hContainer {
+  display: flex;
+  justify-content: center;
+  border-style: double;
+  border-width: 5px;
+  border-color: white;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.iconLinks {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profilePicture {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.github {
+  width: 100px;
+  height: 100px;
+}
+
+.linkedin {
+  width: 100px;
+  height: 100px;
+}
+
+.social {
+  width: 100px;
+  height: 100px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  border-style: double;
+  border-width: 5px;
+  border-color: white;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: coral;
+  height: 25px;
+  flex-shrink: 0;
+}
+
+.repositories {
+  display: flex;
+  justify-content: center;
+}
