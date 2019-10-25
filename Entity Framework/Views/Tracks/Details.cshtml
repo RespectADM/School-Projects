@@ -1,0 +1,66 @@
+@model ScaffoldExistingExample.Models.tracks
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>tracks</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AlbumId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AlbumId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MediaTypeId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MediaTypeId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.GenreId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.GenreId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Composer)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Composer)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Milliseconds)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Milliseconds)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Bytes)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Bytes)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.UnitPrice)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.UnitPrice)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.TrackId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
